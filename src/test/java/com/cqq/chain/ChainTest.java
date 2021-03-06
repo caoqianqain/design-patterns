@@ -17,7 +17,6 @@ public class ChainTest {
         chain.addEnd(new BrushTeeth());
         chain.addEnd(new WashFace());
         chain.addEnd(new Sleep());
-
         chain.entry("request","response");
     }
 }
