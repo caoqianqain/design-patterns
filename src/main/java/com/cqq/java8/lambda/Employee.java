@@ -19,6 +19,10 @@ public class Employee {
     public Employee() {
     }
 
+    public Employee(int age) {
+        this.age = age;
+    }
+
     public String getName() {
         return name;
     }
